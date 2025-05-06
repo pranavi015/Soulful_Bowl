@@ -1,4 +1,4 @@
-export default function RecipesPage() {
+export default function SearchRecipes() {
   return (
     <div className="relative w-full h-[85vh]">
       {/* Background image */}

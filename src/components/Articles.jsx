@@ -12,8 +12,8 @@ const Articles = () => {
   }, []);
 
   return (
-    <div className="p-6 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-      {Array.isArray(value) && value.map((val) => (
+    <div className="p-6 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+      {value && value.map((val) => (
         <div
           key={val.id}
           className="bg-white rounded-2xl shadow-lg overflow-hidden transition-transform hover:scale-105"

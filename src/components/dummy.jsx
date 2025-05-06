@@ -1,5 +1,4 @@
-'use client';
-const recipes = [
+[
   {
     "id": 1,
     "title": "Buffalo Pasta Salad",
@@ -3165,31 +3164,3 @@ const recipes = [
     "link": "https://www.pickuplimes.com/recipe/cranberry-lime-bliss-balls-14",
   },
 ]
-
-export default function FeaturedRecipes() {
-  return (
-    <section className="px-4 py-8 bg-white">
-      <h2 className="text-3xl font-bold text-center mb-8">Featured Recipes</h2>
-      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
-        {recipes.map((recipe) => (
-          <div key={recipe.id} className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-            <img
-              src={recipe.image}
-              alt={recipe.title}
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="text-xl font-semibold mb-2">{recipe.title}</h3>
-              <a
-                href={recipe.link}
-                className="text-blue-600 hover:underline"
-              >
-                View Recipe
-              </a>
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-}
