@@ -1,6 +1,5 @@
 import Articles from '@/components/Articles'
 import Navbar from '@/components/Navbar'
-import RecipeCarousel from '@/components/RecipeCarousel'
 import React from 'react'
 
 const ArticleCard = () => {
