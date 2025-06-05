@@ -3,7 +3,6 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer'
 import SearchRecipes from '@/components/searchRecipes';
 import SearchArtices from '@/components/SearchArticles';
-import RecipeCard from '@/components/RecipeCard';
 import LatestRecipes from '@/components/LatestRecipes';
 import LatestArticles from '@/components/LatestArticles';
 
