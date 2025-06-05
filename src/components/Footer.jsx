@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="flex space-x-6">
             <a href="/recipes" className="hover:text-green-600">Recipes</a>
             <a href="/articles" className="hover:text-green-600">Articles</a>
-            <a href="/about" className="hover:text-green-600">About</a>
+            <a href="/videos" className="hover:text-green-600">Videos</a>
           </div>
         </div>
   
