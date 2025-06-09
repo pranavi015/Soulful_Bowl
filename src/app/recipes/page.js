@@ -1,4 +1,5 @@
 
+import FeaturedAfghan from "@/components/FeaturedAfghan";
 import FeaturedBreakie from "@/components/FeaturedBreakie";
 import FeaturedDes from "@/components/FeaturedDes";
 import Footer from "@/components/Footer";
@@ -11,6 +12,7 @@ const page = () => {
     <div>
       <Navbar/>
       <FeaturedBreakie/>
+      <FeaturedAfghan/>
       <FeaturedDes/>
       <Footer/>
     </div>

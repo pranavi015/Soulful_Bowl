@@ -210,7 +210,7 @@
 import { useState } from "react";
 import RecipeCard from "./RecipeCard";
 
-export default function FeaturedDes() {
+export default function FeaturedSalads() {
   const recipes =[
     {
       id: 1,
@@ -246,28 +246,7 @@ export default function FeaturedDes() {
       "image": "https://cdn.pickuplimes.com/cache/64/5f/645fb895ceeefcfd33d5b6c1c0b821f5.jpg",
       "link": "https://www.pickuplimes.com/recipe/toasted-coconut-almond-granola-123",
      
-    }, 
-    { 
-      "id": 108,
-      "title": "Vegan Chocolate Fudge",
-      "image":
-        "https://cdn.pickuplimes.com/cache/ef/f0/eff07880d366d8a04b560bf483bb853e.jpg",
-      "link": "https://www.pickuplimes.com/recipe/vegan-chocolate-fudge-723",
-    },
-    {
-      "id": 116,
-      "title": "Vegan Chocolate Cake",
-      "image":
-        "https://cdn.pickuplimes.com/cache/3e/db/3edbe8d2b6690ce42b4bbc5a81f42afc.jpg",
-      "link": "https://www.pickuplimes.com/recipe/easy-vegan-chocolate-cake-74",
-    },
-    {
-      "id": 117,
-      "title": "Vegan Chocolate Buttercream Frosting",
-      "image":
-        "https://cdn.pickuplimes.com/cache/e9/a8/e9a8b0102ca2ee0436f2bc67ad0a3a9f.jpg",
-      "link": "https://www.pickuplimes.com/recipe/vegan-chocolate-buttercream-frosting-843",
-    },
+    },  
     {
       "id": 130,
       "title": "Homemade Hazelnut Butter",
@@ -323,8 +302,38 @@ export default function FeaturedDes() {
         "https://cdn.pickuplimes.com/cache/fc/e5/fce5f67d44de7b3a0f1094a01eca77be.jpg",
       "link": "https://www.pickuplimes.com/recipe/homemade-almond-butter-20",
     },
-    
   ];
+
+//   const [visibleCount, setVisibleCount] = useState(4);
+
+//   const handleLoadMore = () => {
+//     setVisibleCount((prev) => prev + 4);
+//   };
+
+//   const visibleRecipes = recipes.slice(0, visibleCount);
+
+//   return (
+//     <section className="px-6 py-10">
+//       <h2 className="text-3xl font-serif mb-6"> Choco Goodness</h2>
+//       <div className="flex flex-wrap gap-6">
+//         {visibleRecipes.map((recipe) => (
+//           <RecipeCard key={recipe.id} {...recipe} />
+//         ))}
+//       </div>
+
+//       {visibleCount < recipes.length && (
+//         <div className="mt-6 text-center">
+//           <button
+//             onClick={handleLoadMore}
+//             className="px-4 py-2 bg-green-800 text-white rounded hover:bg-green-700 transition"
+//           >
+//             Load More
+//           </button>
+//         </div>
+//       )}
+//     </section>
+//   );
+// }
 
 const initialVisibleCount = 8; 
 const loadMoreCount = 4;

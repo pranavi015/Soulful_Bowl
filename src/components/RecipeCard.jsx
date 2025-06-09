@@ -20,7 +20,9 @@
 //     );
 //   }
 
-export default function RecipeCard({ title, description, image, tags = [] }) {
+import { Link } from "react-router-dom";
+
+export default function RecipeCard({ title, description, image, tags = [], link = "" }) {
   return (
     <div className="w-80 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
       {/* Recipe Image */}
@@ -35,7 +37,17 @@ export default function RecipeCard({ title, description, image, tags = [] }) {
         <h3 className="text-xl font-serif">{title}</h3>
         <p className="text-sm text-gray-600">{description}</p>
 
-        {/* Tag Pills */}
+        {/* View Recipe Link */}
+        {link && (
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block w-full text-center px-4 py-2 bg-green-600 text-white text-sm rounded-lg hover:bg-green-500 transition"
+          >
+            View Recipe
+          </a>
+        )}
         <div className="flex flex-wrap gap-2 mt-2">
           {tags.map((tag, i) => (
             <span
