@@ -60,10 +60,6 @@ export default function FeaturedItalian() {
           "https://cdn.pickuplimes.com/cache/a5/e8/a5e8ccc057f06a3e962723341601d847.jpg",
         "link": "https://www.pickuplimes.com/recipe/buffalo-pasta-salad-1530",
       },
-
-
-
-    
   ];
 
 const initialVisibleCount = 8; 
@@ -79,7 +75,7 @@ const visibleRecipes = recipes.slice(0, visibleCount);
 
 return (
   <section className="px-6 py-10">
-    <h2 className="text-3xl font-serif mb-6">Choco Goodness</h2>
+    <h2 className="text-3xl font-serif mb-6">Italian 🇮🇹</h2>
     <div className="flex flex-wrap gap-6">
       {visibleRecipes.map((recipe) => (
         <RecipeCard key={recipe.id} {...recipe} />
