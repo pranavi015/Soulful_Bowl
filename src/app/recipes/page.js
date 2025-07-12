@@ -2,6 +2,8 @@
 import FeaturedAfghan from "@/components/FeaturedAfghan";
 import FeaturedBreakie from "@/components/FeaturedBreakie";
 import FeaturedDes from "@/components/FeaturedDes";
+import FeaturedItalian from "@/components/FeaturedItalian";
+import FeaturedSalads from "@/components/FeaturedSalads";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
@@ -12,6 +14,8 @@ const page = () => {
     <div>
       <Navbar/>
       <FeaturedBreakie/>
+      <FeaturedItalian/>
+      <FeaturedSalads/>
       <FeaturedAfghan/>
       <FeaturedDes/>
       <Footer/>

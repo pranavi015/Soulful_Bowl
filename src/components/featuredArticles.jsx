@@ -1,7 +1,7 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 
-export default function Articles() {
+export default function featuredArticles() {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
@@ -21,26 +21,26 @@ export default function Articles() {
             key={article.id}
             className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
           >
-            <img
-              src={article.image}
-              alt={article.title}
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="text-xl font-semibold mb-2">{article.title}</h3>
+          <img
+            src={article.image}
+            alt={article.title}
+            className="w-full h-48 object-cover"
+          />
+          <div className="p-4">
+            <h3 className="text-xl font-semibold mb-2">{article.title}</h3>
               {article.subtitle && (
-                <p className="text-sm text-gray-600 mb-2">{article.subtitle}</p>
-              )}
-              <a
-                href={article.link}
-                className="text-blue-600 hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Read article →
-              </a>
-            </div>
+              <p className="text-sm text-gray-600 mb-2">{article.subtitle}</p>
+            )}
+            <a
+              href={article.link}
+              className="text-blue-600 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            Read article →
+            </a>
           </div>
+      </div>
         ))}
       </div>
     </section>

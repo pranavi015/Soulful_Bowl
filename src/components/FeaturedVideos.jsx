@@ -1712,7 +1712,7 @@ const videos = [
   },
 ];
 
-export default function FeaturedVideos() {
+export default function featuredVideos() {
   return (
     
     

@@ -323,6 +323,20 @@ export default function FeaturedDes() {
         "https://cdn.pickuplimes.com/cache/fc/e5/fce5f67d44de7b3a0f1094a01eca77be.jpg",
       "link": "https://www.pickuplimes.com/recipe/homemade-almond-butter-20",
     },
+    {
+      "id": 202,
+      "title": "Vanilla Caramel Cake",
+      "image":
+        "https://cdn.pickuplimes.com/cache/56/53/5653ddbbcb4cf81ec800176921bb0229.jpg",
+      "link": "https://www.pickuplimes.com/recipe/vanilla-caramel-cake-459",
+    },
+    {
+      "id": 203,
+      "title": "Raspberry Rose Chocolate Bark",
+      "image":
+        "https://cdn.pickuplimes.com/cache/00/92/00922e458139c741c4dcae6b7dcd9265.jpg",
+      "link": "https://www.pickuplimes.com/recipe/raspberry-rose-chocolate-bark-404",
+    },
     
   ];
 

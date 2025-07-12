@@ -20,11 +20,79 @@
 //     );
 //   }
 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
-export default function RecipeCard({ title, description, image, tags = [], link = "" }) {
+// export default function RecipeCard({ title, description, image, tags = [], link = "" }) {
+//   return (
+//     <div className="w-80 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
+//       {/* Recipe Image */}
+//       <img
+//         src={image}
+//         alt={title}
+//         className="w-full h-44 object-cover rounded-t-xl"
+//       />
+
+//       <div className="p-4 space-y-2">
+//         {/* Title & Description */}
+//         <h3 className="text-xl font-serif">{title}</h3>
+//         <p className="text-sm text-gray-600">{description}</p>
+
+//         {/* View Recipe Link */}
+//         {link && (
+//           <a
+//             href={link}
+//             target="_blank"
+//             rel="noopener noreferrer"
+//             className="inline-block w-full text-center px-4 py-2 bg-green-600 text-white text-sm rounded-lg hover:bg-green-500 transition"
+//           >
+//             View Recipe
+//           </a>
+//         )}
+        
+//         <div className="flex flex-wrap gap-2 mt-2">
+//           {tags.map((tag, i) => (
+//             <span
+//               key={i}
+//               className="bg-green-900 text-white text-xs px-3 py-1 rounded-full whitespace-nowrap"
+//             >
+//               {tag}
+//             </span>
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+import { useState } from "react";
+import { FaHeart, FaRegHeart } from "react-icons/fa";
+
+export default function RecipeCard({
+  title,
+  description,
+  image,
+  tags = [],
+  link = "",
+  onFavourite,
+}) {
+  const [isFavourite, setIsFavourite] = useState(false);
+
+  const toggleFavourite = () => {
+    setIsFavourite(!isFavourite);
+    if (onFavourite) {
+      onFavourite({
+        title,
+        description,
+        image,
+        tags,
+        link,
+        isFavourite: !isFavourite,
+      });
+    }
+  };
+
   return (
-    <div className="w-80 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
+    <div className="w-80 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition bg-white flex flex-col justify-between">
       {/* Recipe Image */}
       <img
         src={image}
@@ -32,31 +100,42 @@ export default function RecipeCard({ title, description, image, tags = [], link 
         className="w-full h-44 object-cover rounded-t-xl"
       />
 
-      <div className="p-4 space-y-2">
+      <div className="p-4 flex flex-col flex-grow justify-between">
         {/* Title & Description */}
-        <h3 className="text-xl font-serif">{title}</h3>
-        <p className="text-sm text-gray-600">{description}</p>
+        <div>
+          <h3 className="text-xl font-serif mb-1">{title}</h3>
+          <p className="text-sm text-gray-600 mb-3">{description}</p>
 
-        {/* View Recipe Link */}
-        {link && (
+          {/* Tags */}
+          <div className="flex flex-wrap gap-2 mb-4">
+            {tags.map((tag, i) => (
+              <span
+                key={i}
+                className="bg-green-900 text-white text-xs px-3 py-1 rounded-full whitespace-nowrap"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* Action buttons */}
+        <div className="flex items-center justify-between gap-2 mt-auto">
           <a
             href={link}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block w-full text-center px-4 py-2 bg-green-600 text-white text-sm rounded-lg hover:bg-green-500 transition"
+            className="flex-1 px-4 py-2 bg-green-600 text-white text-sm rounded-lg hover:bg-green-500 transition text-center"
           >
             View Recipe
           </a>
-        )}
-        <div className="flex flex-wrap gap-2 mt-2">
-          {tags.map((tag, i) => (
-            <span
-              key={i}
-              className="bg-green-900 text-white text-xs px-3 py-1 rounded-full whitespace-nowrap"
-            >
-              {tag}
-            </span>
-          ))}
+
+          <button
+            onClick={toggleFavourite}
+            className="w-10 h-10 flex items-center justify-center bg-gray-100 text-red-500 rounded-lg shadow hover:scale-105 transition"
+          >
+            {isFavourite ? <FaHeart /> : <FaRegHeart />}
+          </button>
         </div>
       </div>
     </div>
