@@ -1,7 +1,7 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 
-export default function featuredArticles() {
+export default function Articles() {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
