@@ -60,6 +60,13 @@ export default function FeaturedItalian() {
           "https://cdn.pickuplimes.com/cache/a5/e8/a5e8ccc057f06a3e962723341601d847.jpg",
         "link": "https://www.pickuplimes.com/recipe/buffalo-pasta-salad-1530",
       },
+      {
+        "id": 435,
+        "title": "Beetroot & Red Cabbage Sauerkraut",
+        "image":
+          "https://cdn.pickuplimes.com/cache/85/71/8571124f3e586073644559049ba6b673.jpg",
+        "link": "https://www.pickuplimes.com/recipe/beetroot-red-cabbage-sauerkraut-281",
+      },
   ];
 
 const initialVisibleCount = 8; 
