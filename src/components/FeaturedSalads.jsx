@@ -88,42 +88,6 @@ export default function FeaturedSalads() {
           "https://cdn.pickuplimes.com/cache/2e/32/2e32987da7dd54e7e9894089460d7071.jpg",
         "link": "https://www.pickuplimes.com/recipe/macaroni-salad-with-lentil-quesadillas-592",
       },
-      {
-        "id": 314,
-        "title": "Quinoa Salad with Roasted Garlic Dressing",
-        "image":
-          "https://cdn.pickuplimes.com/cache/f0/2b/f02b4f1bd300b6c2a3f0a2d0b870ae89.jpg",
-        "link": "https://www.pickuplimes.com/recipe/quinoa-salad-with-roasted-garlic-dressing-129",
-      },
-      {
-        "id": 318,
-        "title": "Lentil Taco Salad",
-        "image":
-          "https://cdn.pickuplimes.com/cache/b8/b7/b8b7c6d1839a35f00679904d76618354.jpg",
-        "link": "https://www.pickuplimes.com/recipe/bold-filling-lentil-taco-salad-135",
-      },
-      {
-        "id": 372,
-        "title": "Protein-Packed Lentil & Quinoa Salad",
-        "image":
-          "https://cdn.pickuplimes.com/cache/81/40/814091fb732e62a6dbdaa070c93242d1.jpg",
-        "link": "https://www.pickuplimes.com/recipe/protein-packed-lentil-quinoa-salad-208",
-      },
-      {
-        "id": 416,
-        "title": "Brown Rice Miso Salad",
-        "image":
-          "https://cdn.pickuplimes.com/cache/47/5c/475c02601265e03f0f615d50979648d3.jpg",
-        "link": "https://www.pickuplimes.com/recipe/brown-rice-miso-salad-218",
-      },
-      {
-        "id": 237,
-        "title": "Spiced Black Bean & Rice Salad in a Jar",
-        "image":
-          "https://cdn.pickuplimes.com/cache/2b/71/2b718bb584c2e5047c95e0f47f0d0442.jpg",
-        "link": "https://www.pickuplimes.com/recipe/spiced-black-bean-rice-salad-in-a-jar-11",
-    },
-
   ];
 
 const initialVisibleCount = 8; 

@@ -267,20 +267,6 @@ export default function FeaturedDes() {
       "image":
         "https://cdn.pickuplimes.com/cache/e9/a8/e9a8b0102ca2ee0436f2bc67ad0a3a9f.jpg",
       "link": "https://www.pickuplimes.com/recipe/vegan-chocolate-buttercream-frosting-843",
-    },
-    {
-      "id": 130,
-      "title": "Homemade Hazelnut Butter",
-      "image": "https://cdn.pickuplimes.com/cache/08/78/0878196bfbcf0d7c7f61a353639fd3f9.jpg",
-      "link": "https://www.pickuplimes.com/recipe/homemade-hazelnut-butter-783",
-      
-    },
-    {
-      id: 45,
-      title: "Vanilla Chai Spiced Latte Mix",
-      image: "https://cdn.pickuplimes.com/cache/66/58/6658579a0d5bc8fc99f042d95442c39d.jpg",
-      link: "https://www.pickuplimes.com/recipe/vanilla-chai-spiced-latte-mix-899",
-      
     }, 
     {
       "id": 366,
@@ -288,13 +274,6 @@ export default function FeaturedDes() {
       "image":
         "https://cdn.pickuplimes.com/cache/c1/ca/c1ca663067f7d660cb94d33618381159.jpg",
       "link": "https://www.pickuplimes.com/recipe/one-bowl-chewy-double-chocolate-chip-cookies-199",
-    },
-    {
-      "id": 367,
-      "title": "Candied Coconut & Cinnamon Pecans",
-      "image":
-        "https://cdn.pickuplimes.com/cache/8c/b7/8cb70790fd59cbbd9659c30d3c8c4260.jpg",
-      "link": "https://www.pickuplimes.com/recipe/candied-coconut-cinnamon-pecans-202",
     },  
     {
       "id": 335,
@@ -304,41 +283,13 @@ export default function FeaturedDes() {
       "link": "https://www.pickuplimes.com/recipe/ultra-fudgy-sea-salt-caramel-brownies-153",
     },
     {
-      "id": 131,
-      "title": "Peppermint Mocha",
-      "image": "https://cdn.pickuplimes.com/cache/bd/e3/bde3f89d254d12b0fdd602fd2c111306.jpg",
-      "link": "https://www.pickuplimes.com/recipe/peppermint-mocha-737",
-    },
-    {
-      "id": 336,
-      "title": "Stewed Berries",
+      "id": 203,
+      "title": "Raspberry Rose Chocolate Bark",
       "image":
-        "https://cdn.pickuplimes.com/cache/8f/44/8f44a6121b1b601939cfaf96f9218eb3.jpg",
-      "link": "https://www.pickuplimes.com/recipe/stewed-berries-91",
+        "https://cdn.pickuplimes.com/cache/00/92/00922e458139c741c4dcae6b7dcd9265.jpg",
+      "link": "https://www.pickuplimes.com/recipe/raspberry-rose-chocolate-bark-404",
     },
-    {
-      "id": 337,
-      "title": "Homemade Almond Butter",
-      "image":
-        "https://cdn.pickuplimes.com/cache/fc/e5/fce5f67d44de7b3a0f1094a01eca77be.jpg",
-      "link": "https://www.pickuplimes.com/recipe/homemade-almond-butter-20",
-    },
-      {
-    "id": 202,
-    "title": "Vanilla Caramel Cake",
-    "image":
-      "https://cdn.pickuplimes.com/cache/56/53/5653ddbbcb4cf81ec800176921bb0229.jpg",
-    "link": "https://www.pickuplimes.com/recipe/vanilla-caramel-cake-459",
-  },
-  {
-    "id": 203,
-    "title": "Raspberry Rose Chocolate Bark",
-    "image":
-      "https://cdn.pickuplimes.com/cache/00/92/00922e458139c741c4dcae6b7dcd9265.jpg",
-    "link": "https://www.pickuplimes.com/recipe/raspberry-rose-chocolate-bark-404",
-  },
-    
-  ];
+];
 
 const initialVisibleCount = 8; 
 const loadMoreCount = 4;

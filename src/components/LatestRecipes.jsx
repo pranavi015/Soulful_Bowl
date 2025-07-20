@@ -12,12 +12,12 @@ export default function LatestArticles() {
   };
 
   return (
-    <section className="px-6 py-10">
+    <section className=" px-6 py-10">
       <h2 className="text-3xl font-serif mb-6">Latest Recipes</h2>
       <div className="flex flex-wrap gap-6">
         {recipes.slice(0, 4).map((recipe) => (
           <RecipeCard key={recipe.id} {...recipe} />
-        ))}
+        ))} 
       </div>
 
       <div className="mt-6 text-center">

@@ -12,9 +12,8 @@ export default function Articles() {
   }, []);
 
   return (
-    <section className="px-4 py-8 bg-white">
+   <section className="bg-[#eee4cf] px-4 py-8 bg-#fefdf8 text-gray-800">
       <h2 className="text-3xl font-bold text-center mb-8">Featured Articles</h2>
-
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
         {articles.map((article) => (
           <div

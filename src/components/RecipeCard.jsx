@@ -65,6 +65,7 @@
 // }
 
 import { useState } from "react";
+import Link from 'next/link';
 import { FaHeart, FaRegHeart } from "react-icons/fa";
 
 export default function RecipeCard({
@@ -121,14 +122,8 @@ export default function RecipeCard({
 
         {/* Action buttons */}
         <div className="flex items-center justify-between gap-2 mt-auto">
-          <a
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-1 px-4 py-2 bg-green-600 text-white text-sm rounded-lg hover:bg-green-500 transition text-center"
-          >
-            View Recipe
-          </a>
+            <Link href="./viewRecipe"><button className="flex-1 px-18 py-3 bg-green-600 text-white text-sm rounded-lg hover:bg-green-500 transition text-center">View Recipe</button></Link>
+
 
           <button
             onClick={toggleFavourite}

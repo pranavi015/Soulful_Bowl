@@ -74,43 +74,13 @@ export default function FeaturedBreakie() {
           "https://cdn.pickuplimes.com/cache/57/1e/571ef28291a7a2658dea22c1ef95e0d0.jpg",
         "link": "https://www.pickuplimes.com/recipe/hazelnut-granola-breakfast-bars-188",
       },
-
-      {
-        "id": 126,
-        "title": "Savoury Miso Sesame Oatmeal",
-        "image": "https://cdn.pickuplimes.com/cache/ea/db/eadbb31221ef44b9e29004e076dabadf.jpg",
-        "link": "https://www.pickuplimes.com/recipe/savoury-miso-sesame-oatmeal-736",
-        
-      },
       {
         "id": 127,
         "title": "Chipotle Spiced Black Bean Oatmeal",
         "image": "https://cdn.pickuplimes.com/cache/5d/6a/5d6abb2213a7b45a7be36a69ebb8e2b3.jpg",
         "link": "https://www.pickuplimes.com/recipe/chipotle-spiced-black-bean-oatmeal-778",
         
-      },
-      {
-        "id": 162,
-        "title": "Banana Coffee Muffins",
-        "image": "https://cdn.pickuplimes.com/cache/c8/14/c814a184a49a5a0de75a691ec9fb6624.jpg",
-        "link": "https://www.pickuplimes.com/recipe/banana-coffee-muffins-325",
-       
-      },
-      {
-        "id": 174,
-        "title": "Double Chocolate Granola",
-        "image": "https://cdn.pickuplimes.com/cache/19/0e/190e387dd3257d48e4ed9f95d1af48c2.jpg",
-        "link": "https://www.pickuplimes.com/recipe/double-chocolate-granola-576",
-      },
-      {
-        "id": 356,
-        "title": "Fabulously Healthy Buckwheat Pancakes",
-        "image":
-          "https://cdn.pickuplimes.com/cache/0c/0f/0c0f41d9fb865aeeee9a5865453a4245.jpg",
-        "link": "https://www.pickuplimes.com/recipe/fabulously-healthy-buckwheat-pancakes-185",
-      },
-
-      
+      },   
   ];
 
   const initialVisibleCount = 8; 
