@@ -48,7 +48,7 @@
 //             View Recipe
 //           </a>
 //         )}
-        
+
 //         <div className="flex flex-wrap gap-2 mt-2">
 //           {tags.map((tag, i) => (
 //             <span
@@ -122,7 +122,20 @@ export default function RecipeCard({
 
         {/* Action buttons */}
         <div className="flex items-center justify-between gap-2 mt-auto">
-            <Link href="./viewRecipe"><button className="flex-1 px-18 py-3 bg-green-600 text-white text-sm rounded-lg hover:bg-green-500 transition text-center">View Recipe</button></Link>
+          <Link
+            href={{
+              pathname: "/viewRecipe",
+              query: {
+                title: encodeURIComponent(title),
+                image: encodeURIComponent(image), // ✅ Add this line
+              },
+            }}
+          >
+            <button className="flex-1 px-18 py-3 bg-green-600 text-white text-sm rounded-lg hover:bg-green-500 transition text-center">
+              View Recipe
+            </button>
+          </Link>
+
 
 
           <button

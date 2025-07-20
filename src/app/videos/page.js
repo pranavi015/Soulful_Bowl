@@ -7,7 +7,7 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      <div  className={styles.top}>
+      <div className={styles.top}>
         <Navbar/>
       </div>
       <div className={styles.container}>
