@@ -4,7 +4,7 @@ import RecipeCard from './RecipeCard';
 import recipes from '../data/recipes.json';
 
 
-export default function LatestArticles() {
+export default function LatestRecipes() {
   const router = useRouter();
 
   const handleRedirect = () => {

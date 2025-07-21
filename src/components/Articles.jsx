@@ -12,7 +12,7 @@ export default function Articles() {
   }, []);
 
   return (
-   <section className="bg-[#eee4cf] px-4 py-8 bg-#fefdf8 text-gray-800">
+   <section className=" px-4 py-8 bg-#fefdf8 text-gray-800">
       <h2 className="text-3xl font-bold text-center mb-8">Featured Articles</h2>
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
         {articles.map((article) => (
@@ -33,8 +33,6 @@ export default function Articles() {
             <a
               href={article.link}
               className="text-blue-600 hover:underline"
-              target="_blank"
-              rel="noopener noreferrer"
             >
             Read article →
             </a>

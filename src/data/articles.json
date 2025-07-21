@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "title": "How to Reduce Food Waste",
+      "subtitle": "7 tips",
+      "image":
+        "https://cdn.pickuplimes.com/cache/8d/a9/8da9f61c0fdd8c0a309a1110813c5b46.jpg",
+      "link": "https://www.pickuplimes.com/article/how-to-reduce-food-waste-107"
+    },
+    {
+      "id": 2,
+      "title": "The Nourish Method",
+      "subtitle": "plant-based eating made easy (+ complete)",
+      "image":
+        "https://cdn.pickuplimes.com/cache/4e/2e/4e2e55fcb8209f517fcbb6f9c988a710.jpg",
+      "link": "https://www.pickuplimes.com/article/the-nourish-method-212"
+    },
+    {
+      "id": 3,
+      "title": "The World of Spices & Herbs",
+      "subtitle": "+ printable guide",
+      "image":
+        "https://cdn.pickuplimes.com/cache/cb/e1/cbe17bf09135683ba89639c53907cd7a.jpg",
+      "link": "https://www.pickuplimes.com/article/the-world-of-spices-herbs-211"
+    },
+    {
+      "id": 4,
+      "title": "Skin Health & Nutrition",
+      "subtitle": "nourishing skin from within",
+      "image":
+        "https://cdn.pickuplimes.com/cache/31/8f/318f49b2f67c60f84b6da6b9e9047de6.jpg",
+      "link": "https://www.pickuplimes.com/article/skin-health-nutrition-207"
+    }
+]

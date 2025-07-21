@@ -1721,7 +1721,7 @@ export default function featuredVideos() {
 
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
         {videos.map((video) => (
-          <div key={video.id} className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+          <div key={video.id} className="bg-gray-110 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
             <img
               src={video.image}
               alt={video.title}
