@@ -1657,8 +1657,6 @@ const instructions = [
           "hazelnut butter",
           "chopped dairy-free dark chocolate",
           "Make your own",
-          "•",
-          "•",
           "Homemade Hazelnut Butter",
           "Previous",
           "Next"
@@ -2615,14 +2613,8 @@ export default function Page() {
           <h1 className="text-2xl font-bold">{recipe.title}</h1>
         </div>
 
-        <img
-          src={recipe.image}
-          alt={recipe.title}
-          className="w-full h-auto rounded-xl mb-6 shadow"
-        />
-
         <section className="mb-6">
-          <h2 className="text-xl font-semibold text-[#216705] mb-2">Badges</h2>
+          <h2 className="text-xl font-semibold text-[#216705] mb-2"></h2>
           <ul className="flex flex-wrap gap-2">
             {recipe.badges.map((badge, index) => (
               <li

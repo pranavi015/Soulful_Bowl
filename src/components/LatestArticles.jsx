@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation"; 
 import articles from "../data/articles.json";
-import RecipeCard from './RecipeCard'; 
+import RecipeCard from "./RecipeCard";
 
 export default function LatestArticles() {
   const router = useRouter(); 

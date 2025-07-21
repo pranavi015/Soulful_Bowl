@@ -1,4 +1,6 @@
 'use client';
+import '../app/styles/MyComponent.module.css'
+
 const videos = [
   {
     id: 1,
@@ -1712,12 +1714,12 @@ const videos = [
   },
 ];
 
-export default function featuredVideos() {
+export default function FeaturedVideos() {
   return (
     
     
-    <section className="bg-[#eee4cf] px-4 py-8 bg-white">
-      <h2 className="text-3xl font-bold text-center mb-8">Featured Videos</h2>
+    <section className="px-4 py-8 bg-white">
+      <h2 className="text-3xl font-bold-italic text-center mb-8">Featured Videos</h2>
 
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
         {videos.map((video) => (
